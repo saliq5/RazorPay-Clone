@@ -19,5 +19,21 @@ module.exports = {
     },},
   },
   plugins: [],
+   purge: {
+    content: ['*'],
+    safelist: [
+      'deepBlue',
+      'lightBlue',
+      'lightBlue300',
+      'lightBlue500'
+      'greenLight',
+      'grayText',
+      'lightGray',
+      'grayBlue',
+      'deepBlueHead',
+      'gray2',
+      'mullish'
+    ]
+  }
 }
 
